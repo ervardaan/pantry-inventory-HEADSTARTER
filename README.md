@@ -8,7 +8,11 @@
 
 - in a directory, run `npx create-next-app@latest` and answer some follow up questions YES OR NO
 - a folder or app is created with the explicit name gave
-- now go inside this folder/directory of the app name and all work is done here 
+- now go inside this folder/directory of the app name and all work is done here
+
+  ### initializing materialUI in app
+
+  - run `npm install @mui/material @emotion/react @emotion/styled` inside the app name folder/directory
 
   ## start and run the app
 
