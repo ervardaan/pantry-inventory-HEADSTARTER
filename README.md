@@ -25,4 +25,8 @@
   - import `getFirestore`
   - make a constant variable for firebase and export it
   - make a collection in `firebase` console
+
+  ### working on app
+  - make it a client side app by adding `use client` at top of app.js file inside `app` folder
+  - import client side state variables and functions from react- useState and useEffect
   
