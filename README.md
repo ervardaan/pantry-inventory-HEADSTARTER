@@ -18,3 +18,6 @@
 
   - go inside the app name directory and run the app from this directory
   - use  `npm run dev`
+  ### working with firebase
+  - import `getFirestore`
+  
