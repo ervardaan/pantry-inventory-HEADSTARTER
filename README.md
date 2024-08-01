@@ -21,5 +21,6 @@
   ### working with firebase
   - make firebase account in its console and create its database inside `firestore database`
   - make `firebase.js` file at same level as app folder(both are in appName folder with package.json and package-lock.json files)
+  - copy the initializing SDK we get from firebaseconsole after making the app there and place this SDK content in `firebase.js` file
   - import `getFirestore`
   
