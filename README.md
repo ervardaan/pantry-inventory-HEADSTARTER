@@ -27,6 +27,9 @@
   - make a collection in `firebase` console
 
   ### working on app
-  - make it a client side app by adding `use client` at top of app.js file inside `app` folder
+  - make it a client side app by adding `use client` at top of page.js file inside `app` folder
   - import client side state variables and functions from react- useState and useEffect
+  - make a box to be returned from a default method
+### adding functionality to page.js file
+- call useState() method to get inventory and setInventory variables
   
