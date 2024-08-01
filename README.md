@@ -32,4 +32,7 @@
   - make a box to be returned from a default method
 ### adding functionality to page.js file
 - call useState() method to get inventory and setInventory variables
+- fetch inventory from firebase
+    - use async function
+    - get snapshots by doing a `query` of the `firebase database`
   
