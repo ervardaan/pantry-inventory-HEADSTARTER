@@ -19,5 +19,7 @@
   - go inside the app name directory and run the app from this directory
   - use  `npm run dev`
   ### working with firebase
+  - make firebase account in its console and create its database inside `firestore database`
+  - make `firebase.js` file at same level as app folder(both are in appName folder with package.json and package-lock.json files)
   - import `getFirestore`
   
