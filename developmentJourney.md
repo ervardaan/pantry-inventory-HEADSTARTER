@@ -9,7 +9,7 @@
   - make it a client side app by adding `use client` at top of page.js file inside `app` folder
   - import client side state variables and functions from react- `useState` and `useEffect`
 ##### 3) make a box
-- import itfrom `material ui` into `page.js`
+- import it from `material ui` into `page.js` and also `topography`
 - return the box from `home function` of `page.js` file
 - add `Inventory` inside the `box` and give it some `text` to be displayed on the screen
 ### 4) adding functionality to page.js file( everything done inside home method of page.js)
@@ -17,6 +17,5 @@
 - call `useState() with default value false` again to get `open` and `setOpen`
 - call `useState() with empty string` to get `itemName` and `setItemName`
 ##### 5) updateInventory() method- an async function to fetch inventory from firebase
-    - use async function
-    - get snapshots by doing a `query` of the `firebase database`
+- cerate a const variable called `snapshot` to call `query()` method with `collection()` method with parameters `firestore` and string `inventory`- for this import query and collection from `firebase/firestore` and also `firestore` from `@/firebase`
   
