@@ -45,9 +45,9 @@
 - create a const variable `docSnap` to call `await` method with `docRef` as parameter
 - if there is some response from `await` and docSnap exists
     - create a const `quantity` to get `docSnap.data()`
-    - if quantity=1, call `deleteDoc` method with `docRef` parameter in `await` cycle
+    - if quantity=1, call `setDoc` method with `docRef` and `{quantity:quantity+1}` in `await` cycle
     - else use `await` cycle with `setDoc()` method with parameters-
         - docRef
-        - {quantity:quantity-1}
+        - {quantity:1}
 - at end of async method, call `updateInventory` in `await` cycle
   
