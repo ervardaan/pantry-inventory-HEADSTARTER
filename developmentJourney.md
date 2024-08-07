@@ -18,4 +18,19 @@
 - call `useState() with empty string` to get `itemName` and `setItemName`
 ##### 5) updateInventory() method- an async function to fetch inventory from firebase
 - cerate a const variable called `snapshot` to call `query()` method with `collection()` method with parameters `firestore` and string `inventory`- for this import query and collection from `firebase/firestore` and also `firestore` from `@/firebase`
+- create a const variable `docs` which uses `await` cycle with method `getDocs` with parameter `snapshot variable we just defined`
+- create an empty array `inventoryList`
+- use a `forEach loop` on `docs` variable to get each element `doc` in the array `docs`
+    - push this element `doc` into `inventoryList`- explicityly create this element from information out of `doc`
+        - name property as `doc.id`
+        - `...doc.data()`
+- call `setInventory` method with parameter `inventoryList`
+### 6) useEffect() method call with parameters
+- call `useEffect` with empty dependency list
+- in `box` after the  topography` we display the list in the `inventory`
+##### 7) removeItem() method-async function
+- parameter is an item
+- create a const avriable `docRef` which called `doc()` method with `collection` method with parameters `firestore` and string `inventory` and 2nd parameter after collection() is `item`
+- 
+- 
   
