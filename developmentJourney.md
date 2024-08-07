@@ -50,4 +50,6 @@
         - docRef
         - {quantity:1}
 - at end of async method, call `updateInventory` in `await` cycle
+### 9) handleOpen and handleClose methods
+- carrow functions which call `setOpen()` with true and false respectively
   
