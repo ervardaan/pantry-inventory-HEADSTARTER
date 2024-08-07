@@ -27,10 +27,27 @@
 - call `setInventory` method with parameter `inventoryList`
 ### 6) useEffect() method call with parameters
 - call `useEffect` with empty dependency list
-- in `box` after the  topography` we display the list in the `inventory`
+- call `updateInventory` method in `useEffect()` method
 ##### 7) removeItem() method-async function
 - parameter is an item
 - create a const avriable `docRef` which called `doc()` method with `collection` method with parameters `firestore` and string `inventory` and 2nd parameter after collection() is `item`
-- 
-- 
+- create a const variable `docSnap` to call `await` method with `docRef` as parameter
+- if there is some response from `await` and docSnap exists
+    - create a const `quantity` to get `docSnap.data()`
+    - if quantity=1, call `deleteDoc` method with `docRef` parameter in `await` cycle
+    - else use `await` cycle with `setDoc()` method with parameters-
+        - docRef
+        - {quantity:quantity-1}
+- at end of async method, call `updateInventory` in `await` cycle
+##### 8) addItem() method-async function
+- parameter is an item
+- create a const avriable `docRef` which called `doc()` method with `collection` method with parameters `firestore` and string `inventory` and 2nd parameter after collection() is `item`
+- create a const variable `docSnap` to call `await` method with `docRef` as parameter
+- if there is some response from `await` and docSnap exists
+    - create a const `quantity` to get `docSnap.data()`
+    - if quantity=1, call `deleteDoc` method with `docRef` parameter in `await` cycle
+    - else use `await` cycle with `setDoc()` method with parameters-
+        - docRef
+        - {quantity:quantity-1}
+- at end of async method, call `updateInventory` in `await` cycle
   
