@@ -16,8 +16,7 @@
 - call `useState() with empty array` method to get `inventory` and `setInventory` variables
 - call `useState() with default value false` again to get `open` and `setOpen`
 - call `useState() with empty string` to get `itemName` and `setItemName`
-##### 5) updateInventory() method`
-- fetch inventory from firebase
+##### 5) updateInventory() method- an async function to fetch inventory from firebase
     - use async function
     - get snapshots by doing a `query` of the `firebase database`
   
