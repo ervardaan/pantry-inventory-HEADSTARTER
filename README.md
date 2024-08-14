@@ -23,5 +23,6 @@ link: https://medium.com/@billzhangsc/building-an-inventory-management-app-with-
 ## resources
 https://medium.com/@billzhangsc/building-an-inventory-management-app-with-next-js-react-and-firebase-e9647a61eb82
 https://www.loom.com/share/5f3586506a7746b58998d357737483b5
+https://www.youtube.com/watch?v=uikATllLdRc
 
  
